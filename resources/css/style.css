@@ -1,51 +1,25 @@
-/* Background */
 body {
-  background-color: black; /* Black background */
-  text-align: center; /* Center-align text globally */
-  font-family: Verdana, sans-serif; /* Default font */
-  color: gray; /* Default text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Heading */
-h1 {
-  font-size: 50px; /* Font size */
-  font-weight: normal; /* Font weight */
-  color: white; /* Font color */
-  text-align: center; /* Align center */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
 }
 
-/* Subheading */
-h2 {
-  font-size: 42px;
-  font-weight: 300;
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
   color: white;
-}
-
-/* Small Text */
-p {
-  font-size: 21px;
-  color: gray;
-}
-
-/* Links */
-a {
-  color: aquamarine;
-  font-size: 16px;
-  text-decoration: none; /* No underline */
-}
-
-a:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
-
-/* Footer Text */
-footer {
-  text-align: right;
-  color: gray;
-}
-
-/* Centered Phone Mockup */
-.phone {
-  margin: 20px auto;
-  display: block; /* Ensures it's centered */
+  text-decoration: none;
+  border-radius: 5px;
 }
