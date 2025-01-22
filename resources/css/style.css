@@ -1,0 +1,51 @@
+/* Background */
+body {
+  background-color: black; /* Black background */
+  text-align: center; /* Center-align text globally */
+  font-family: Verdana, sans-serif; /* Default font */
+  color: gray; /* Default text color */
+}
+
+/* Heading */
+h1 {
+  font-size: 50px; /* Font size */
+  font-weight: normal; /* Font weight */
+  color: white; /* Font color */
+  text-align: center; /* Align center */
+}
+
+/* Subheading */
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+  color: white;
+}
+
+/* Small Text */
+p {
+  font-size: 21px;
+  color: gray;
+}
+
+/* Links */
+a {
+  color: aquamarine;
+  font-size: 16px;
+  text-decoration: none; /* No underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Footer Text */
+footer {
+  text-align: right;
+  color: gray;
+}
+
+/* Centered Phone Mockup */
+.phone {
+  margin: 20px auto;
+  display: block; /* Ensures it's centered */
+}
